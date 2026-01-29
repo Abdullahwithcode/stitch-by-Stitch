@@ -1,0 +1,555 @@
+/* ===== Our Story Section ===== */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --brown: #8B5A2B;
+  --brown-dark: #5C3A1E;
+  --brown-light: #EAD7C3;
+  --text-dark: #2b2b2b;
+  --text-muted: #6b6b6b;
+}
+
+background-color: var(--brown);
+color: var(--brown);
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ===== Footer CTA Section ===== */
+.cta-footer {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.cta-footer p {
+  color: var(--brown-light);
+}
+
+.cta-footer .cta-btn {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.cta-footer .cta-btn:hover {
+  background-color: var(--brown-dark);
+  color: var(--white);
+}
+
+.cta-footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  margin: 0;
+}
+.cta-footer .cta-inner {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cta-footer h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.cta-footer p {
+  font-size: 16px;
+  color: #bbb;
+  margin: 10px auto 20px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+.cta-footer .cta-btn {
+  display: inline-block;
+  background-color: #3B82F6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.cta-footer .cta-btn:hover {
+  background-color: #1e293b;
+  color: #3B82F6;
+  transform: translateY(-2px);
+}
+.cta-footer + .footer {
+  margin-top: 0;
+}
+.our-story {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.story-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.story-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.story-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.story-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.story-content hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 40px;
+  margin: 0 0 20px 0;
+}
+
+.story-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* ===== Why Choose Us Section ===== */
+.why-choose-us {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.why-choose-us hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto 40px;
+}
+
+.reasons-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.reason-card {
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.reason-card:hover {
+  background-color: #3B82F6;
+  color: white;
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3);
+  border-color: #3B82F6;
+}
+
+.reason-card i {
+  font-size: 40px;
+  color: #3B82F6;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.reason-card:hover i {
+  color: white;
+}
+
+.reason-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reason-card:hover h3 {
+  color: white;
+}
+
+.reason-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.reason-card:hover p {
+  color: white;
+}
+
+/* ===== Team Section ===== */
+.team-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.team-section hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto 40px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.team-member {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.2);
+}
+
+.team-member img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #3B82F6;
+  font-weight: 500;
+}
+
+/* ===== Capabilities Section ===== */
+.reason-card,
+.team-member,
+.capability-item {
+  background-color: var(--white);
+  border-color: var(--brown-light);
+}
+
+.reason-card:hover {
+  background-color: var(--brown);
+  color: var(--white);
+  border-color: var(--brown);
+}
+
+.reason-card i {
+  color: var(--brown);
+}
+
+.reason-card:hover i {
+  color: var(--white);
+}
+
+.capabilities-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.capabilities-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.capabilities-section hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto 40px;
+}
+
+.capabilities-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.capability-item {
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 8px;
+  border-left: 4px solid #3B82F6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.capability-item:hover {
+  background-color: #e0f2fe;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+.capability-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.capability-item p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+.capability-item {
+  border-left: 4px solid var(--brown);
+}
+
+.capability-item:hover {
+  background-color: var(--brown-light);
+}
+
+
+/* ===== Mobile Responsive ===== */
+@media (max-width: 768px) {
+  .story-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .reasons-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .team-member img {
+    height: 200px;
+  }
+
+  .capabilities-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-story,
+  .why-choose-us,
+  .team-section,
+  .capabilities-section {
+    padding: 20px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .reasons-container {
+    grid-template-columns: 1fr;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+
+  .team-member img {
+    height: 250px;
+  }
+
+  .capabilities-container {
+    grid-template-columns: 1fr;
+  }
+
+  .story-content h2,
+  .why-choose-us h2,
+  .team-section h2,
+  .capabilities-section h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reason-card,
+  .capability-item {
+    padding: 20px 15px;
+  }
+
+  .reason-card i {
+    font-size: 32px;
+  }
+
+  .reason-card h3 {
+    font-size: 16px;
+  }
+
+  .story-content h2,
+  .why-choose-us h2,
+  .team-section h2,
+  .capabilities-section h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .our-story,
+  .why-choose-us,
+  .team-section,
+  .capabilities-section {
+    padding: 25px;
+  }
+
+  .story-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story-image,
+  .story-content {
+    min-width: 100%;
+  }
+
+  .story-content hr {
+    margin: 0 auto 20px;
+  }
+
+  .reasons-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .team-member img {
+    height: 220px;
+  }
+
+  .capabilities-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media (max-width: 576px) {
+
+  .our-story,
+  .why-choose-us,
+  .team-section,
+  .capabilities-section {
+    padding: 20px;
+  }
+
+  .story-content h2,
+  .why-choose-us h2,
+  .team-section h2,
+  .capabilities-section h2 {
+    font-size: 28px;
+  }
+
+  .story-content p {
+    font-size: 15px;
+  }
+
+  .reasons-container {
+    grid-template-columns: 1fr;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+
+  .team-member img {
+    height: 260px;
+  }
+
+  .capabilities-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+
+  .story-content h2,
+  .why-choose-us h2,
+  .team-section h2,
+  .capabilities-section h2 {
+    font-size: 24px;
+  }
+
+  .story-content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .reason-card,
+  .capability-item {
+    padding: 20px 15px;
+  }
+
+  .reason-card i {
+    font-size: 32px;
+  }
+
+  .reason-card h3,
+  .capability-item h3 {
+    font-size: 16px;
+  }
+
+  .team-member img {
+    height: 220px;
+  }
+}

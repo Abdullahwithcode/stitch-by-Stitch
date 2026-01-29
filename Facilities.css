@@ -1,0 +1,688 @@
+/* ===== Capacity Overview Section ===== */
+.capacity-overview {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+}
+/* ===== Footer CTA Section ===== */
+.cta-footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  margin: 0;
+}
+.cta-footer .cta-inner {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cta-footer h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.cta-footer p {
+  font-size: 16px;
+  color: #bbb;
+  margin: 10px auto 20px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+.cta-footer .cta-btn {
+  display: inline-block;
+  background-color: #3B82F6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.cta-footer .cta-btn:hover {
+  background-color: #1e293b;
+  color: #3B82F6;
+  transform: translateY(-2px);
+}
+.cta-footer + .footer {
+  margin-top: 0;
+}
+
+.capacity-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.capacity-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.capacity-header hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.capacity-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.capacity-card {
+  background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.capacity-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+}
+
+.capacity-number {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.capacity-card p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.capacity-card span {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* ===== Factory Overview Section ===== */
+.factory-overview {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.overview-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.overview-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.overview-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.overview-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.overview-text h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.overview-text hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 40px;
+  margin: 0 0 20px 0;
+}
+
+.overview-text p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.overview-features {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feature {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.feature i {
+  font-size: 24px;
+  color: #3B82F6;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.feature h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* ===== Machinery Section ===== */
+.machinery-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.machinery-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.machinery-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.machinery-header hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.machinery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.machine-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.machine-card:hover {
+  border-color: #3B82F6;
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.2);
+}
+
+.machine-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+
+.machine-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.machine-card:hover .machine-image img {
+  transform: scale(1.05);
+}
+
+.machine-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  padding: 15px 15px 5px;
+  margin: 0;
+}
+
+.machine-card p {
+  font-size: 13px;
+  color: #666;
+  padding: 0 15px 15px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ===== Quality Control Section ===== */
+.quality-control {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.qc-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.qc-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.qc-header hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.qc-process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.qc-stage {
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  min-width: 0;
+  border: 2px solid #e8e8e8;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qc-stage:hover {
+  background-color: #3B82F6;
+  color: white;
+  border-color: #3B82F6;
+  transform: translateY(-5px);
+}
+
+.qc-icon {
+  font-size: 32px;
+  color: #3B82F6;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.qc-stage:hover .qc-icon {
+  color: white;
+}
+
+.qc-stage h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+
+.qc-stage:hover h3 {
+  color: white;
+}
+
+.qc-stage p {
+  font-size: 11px;
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.qc-stage:hover p {
+  color: white;
+}
+
+.qc-arrow {
+  font-size: 20px;
+  color: #3B82F6;
+  font-weight: bold;
+}
+
+/* ===== Workforce Section ===== */
+.workforce-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.workforce-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.workforce-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.workforce-header hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.workforce-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.workforce-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.workforce-text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.workforce-text p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.workforce-stats {
+  display: flex;
+  gap: 30px;
+}
+
+.stat-item {
+  flex: 1;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: 700;
+  color: #3B82F6;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.stat-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.workforce-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.workforce-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Production Lines Section ===== */
+.production-lines {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.lines-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.lines-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.lines-header hr {
+  border: none;
+  height: 3px;
+  background-color: #3B82F6;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.lines-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.line-card {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #3B82F6;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.line-card:hover {
+  background-color: #e0f2fe;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.15);
+}
+
+.line-number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3B82F6;
+  margin-bottom: 10px;
+}
+
+.line-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.line-card p {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+
+  /* Capacity Grid */
+  .capacity-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* Factory Overview */
+  .overview-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .overview-image,
+  .overview-text {
+    min-width: 100%;
+  }
+
+  /* Machinery Grid */
+  .machinery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .machine-image {
+    height: 180px;
+  }
+
+  /* QC Process */
+  .qc-process {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .qc-stage {
+    flex: 1 1 45%;
+  }
+
+  .qc-arrow {
+    display: none;
+  }
+
+  /* Workforce Section */
+  .workforce-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .workforce-text,
+  .workforce-image {
+    min-width: 100%;
+  }
+
+  .workforce-stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Production Lines */
+  .lines-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+
+  .capacity-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .machinery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .qc-process {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .qc-stage {
+    flex: 1 1 100%;
+  }
+
+  .workforce-stats {
+    gap: 15px;
+  }
+
+  .lines-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-text h2,
+  .workforce-text h3,
+  .lines-header h2,
+  .capacity-header h2,
+  .machinery-header h2,
+  .qc-header h2 {
+    font-size: 28px;
+  }
+
+  .overview-text p,
+  .workforce-text p,
+  .line-card p,
+  .capacity-card p {
+    font-size: 14px;
+  }
+
+  .capacity-number,
+  .stat-number,
+  .line-number {
+    font-size: 32px;
+  }
+}
+@media (max-width: 480px) {
+
+  .overview-text h2,
+  .workforce-text h3,
+  .lines-header h2,
+  .capacity-header h2,
+  .machinery-header h2,
+  .qc-header h2 {
+    font-size: 24px;
+  }
+
+  .overview-text p,
+  .workforce-text p,
+  .line-card p,
+  .capacity-card p {
+    font-size: 13px;
+  }
+
+  .capacity-number,
+  .stat-number,
+  .line-number {
+    font-size: 28px;
+  }
+
+  .machine-image,
+  .overview-image img,
+  .workforce-image img {
+    height: auto;
+  }
+
+  .qc-stage p {
+    font-size: 12px;
+  }
+}
